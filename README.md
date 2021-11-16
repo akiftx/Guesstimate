@@ -1,18 +1,26 @@
 # Guesstimate
 It is number guessing game.. It is really fun.. give it a try
+
 Program: Guesstimate
+
 It is a game where the user thinks of a number then the computer tries to guess the number and the user provides feedback and after a certain amount of guesses the computer should find the right number.	
+
 This is a game where player picks a 4 digit number with no repeating numbers or 0s in its digits and computer predict that number via series of guesses.
 (1984 is acceptable but 2010 is not b/c of 0s nor 1997 b.c of 2 9s.)
+
 Each time computer makes a guess, user enters a feedback in format [+x-y]
 (x is no of hits in right digit and y is no of hits in wrong digit)
+
 For example, if the number is 1234 and computer's guess is 3264
 1234
 3264
 2 and 4 correct digits, 3 in wrong digit. user will enter: [+2-1]
+
 Double Click the video below to see the Game in Action!
+
 How it works: 
 the user picks a 4 digit number that can’t repeat digits or have a zero value, and then the computer starts making guesses and the user gives feedback or “hints” based on how hot or cold they are to the number using a plus when a digit was guessed in the correct place value, and minus when the digit is there but in a different place value. For example, if the users number is 3572 and the computer guesses 3296 the feedback will be +1/-1. Plus one for the three, minus one for the 2. And this process continues until the computer guesses the right number.
+
 Main Algorithm
 1. User picks a 4 digit number that the computer will try to guess
 2. Computer makes a guess
